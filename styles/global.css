@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+}
+
+* {
+    font-family: "Montserrat";
+}
+
+.container-logo {
+    background-color: #ffc107;
+    text-align: center;
+}
+
+nav {
+    background-color: #ffa000;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline;
+}
+
+.menu-item-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 30px;
+}
+
+#receita {
+    display: inline-block;
+    width: 60%;
+    padding: 40px;
+}
+ 
+#titulo-receita {
+    color: #ffc107;
+    
+}
+ 
+.image-receita {
+    display: block;
+}
+
+.tags {
+    display: inline-block;
+    background: none;
+    border: 1px solid green;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+#relacionados {
+    display: inline-block;
+    width: 29%;
+    padding: 55px;
+    text-align: center;
+}
+
+.card-receita {
+    width: 345px;
+    box-shadow: 0px 2px 2px 0px grey;
+    margin: 0auto 20px auto;
+}
+
+.card-receita div {
+    padding: 45px 0;
+    font-weight:bold;
+}
+ 
+aside #titulo-receita {
+    text-align: start;
+}
+
+footer {
+    background-color: #ffc107;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+ 
+#lista-receitas {
+    width: 75%;
+    margin: 20px auto;
+}
+
+#lista-receitas h1 {
+    color:#ffc107;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card a {
+    background: #176902;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+ 
+.list-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ 
+.banner {
+    background-image: url("../imagens/contato-topo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding:30px;
+}
+ 
+.banner h1 {
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+#container-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+    margin: 40px auto;
+}
+
+.banner-lateral {
+    background-image: url("../imagens/contato-formulario.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:20%;
+    height:800px;
+}
+
+#container-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    padding: 20px;
+}
+
+#container-form form * {
+    margin: 20px 0;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+input::-webkit-input-placeholder {
+    color: red;
+}
+
+input, textarea, form {
+    border: 1px solid #ffc107;
+}
+
+.banner-index {
+    background-image: url(../imagens/back-inicio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 780px;
+}
+ 
+#titulo-banner1 {
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 1150px;
+    margin-top: 200px;
+    font-size: 70px;
+}
+ 
+#titulo-central {
+    text-align: center;
+    font-size: 80px;
+    margin: 20 0;
+    color: #FFA000;
+}
+
+#container-central {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ 
+#banner-final {
+    background-image: url(../imagens/back-fim.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+
+#titulo-final {
+    padding-top: 190px;
+    margin-top: 168px;
+    margin-left: 200px;    
+    color: #fff;
+    font-size: 65px;
+}
+ 
+.chamada-final {
+    margin-left: 120px;
+    margin-top: 120px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.button{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    box-shadow: 0 0 2.5px 0 #39a2db59;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+ 
+.ball{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ffc107;
+    transition: left 1s;
+}
+
+.ball-move{
+    left: calc(100% - 40px);
+}
+ 
+.dark{
+    background-color: #f7eb42;
+}

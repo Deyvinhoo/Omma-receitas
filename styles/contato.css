@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+.container-logo{
+background: #FFC107;
+text-align: center;
+}
+
+nav {
+    background: #ffa000;
+    text-align: center;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+ 
+.menu-item {
+    display: inline;
+}
+ 
+.menu-item-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 30px;
+  }
+
+.rodape {
+    background-color: #FFC107;
+    display: flex;
+    color: white;
+}
+
+.texto-rodape {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 38px;
+}
+
+.banner {
+    background-image: url("../imagens/contato-topo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    padding: 30px;
+}
+
+.banner h1{
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+#cont-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+    margin: 40px auto;
+}
+
+.banner-lateral{
+    background-image: url(../imagens/contato-formulario.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    height: 800px;
+}
+
+#cont-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60px;
+    padding: 20px;
+}
+
+#cont-form form *{
+    margin: 20px 0;
+}
+
+input,
+textarea{
+    width: 100%;
+}
+
+input::-webkit-input-placeholder{
+    color: red;
+}
+
+input, textarea, form {
+    border: 1px solid #FFC107;
+}
+ 

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+.container-logo{
+background: #FFC107;
+text-align: center;
+}
+
+nav {
+    background: #ffa000;
+    text-align: center;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+ 
+.menu-item {
+    display: inline;
+}
+ 
+.menu-item-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 30px;
+  }
+
+main {
+    padding: 0 120px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+h1 {
+    color: #FFA000;
+    font-size: 50px;
+    margin: 0;
+    display: inline-block;
+    width: 60%;
+    padding: 100px 0 70px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 83px 116px;
+}
+
+.button_list {
+    background-color: #176902;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 185px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.rodape {
+    background-color: #FFC107;
+    display: flex;
+    color: white;
+}
+
+.texto-rodape {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 38px;
+}
+ 

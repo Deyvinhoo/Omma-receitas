@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Omma - Receitas</title>
+        <link rel="stylesheet" href="styles/global.css" />
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="container-logo">
+                <img class="logo" src="imagens/logo.png" alt="Logo do site Omma" />    
+            </div>
+        
+            <nav>
+
+                <ul class="menu">
+
+                    <li class="menu-item">
+                        <a class="menu-item-link" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a class="menu-item-link" href="lista-receitas.html">Receitas</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a class="menu-item-link" href="contato.html">Contato</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+            <main id="lista-receitas">
+                <div class="button">
+                    <div class="ball"></div>
+                </div>
+                <script>
+                    document.querySelector('.ball').addEventListener('click', (e)=>{
+                        e.target.classList.toggle('ball-move');
+                        document.body.classList.toggle('dark');
+                    });                
+                </script>
+
+                <h1>Todas as receitas</h1>
+
+                <section class="list-card">
+
+                    <div class="card">
+                        <img src="imagens/risotto2.png" alt="Risoto de Abobora" />
+                        <h4>risoto de abobora</h4>
+                        <a href="receita.html">conferir</a>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="imagens/bolo-banana.png" alt="Bolo de Banana" />
+                        <h4>bolo de banana</h4>
+                        <a href="receita.html">conferir</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagens/tabule.png" alt="Tabule Tradicional" />
+                        <h4>tabule tradicional</h4>
+                        <a href="receita.html">conferir</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagens/moqueca.png" alt="Moqueca" />
+                        <h4>moqueca</h4>
+                        <a href="receita.html">conferir</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagens/ratatouille.png" alt="Ratatouille" />
+                        <h4>ratatouille</h4>
+                        <a href="receita.html">conferir</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagens/tabule.png" alt="Tabule Tradicional" />
+                        <h4>tabule tradicional</h4>
+                        <a href="receita.html">conferir</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagens/risotto2.png" alt="Risoto de Abobora" />
+                        <h4>risoto</h4>
+                        <a href="receita.html">conferir</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagens/bolo-banana.png" alt="Bolo de Banana" />
+                        <h4>bolo de banana</h4>
+                        <a href="receita.html">conferir</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagens/tabule.png" alt="Tabule Tradicional" />
+                        <h4>tabule tradicional</h4>
+                        <a href="receita.html">conferir</a>
+                    </div>
+                    
+                </section>
+
+            </main>
+
+            <footer>
+                <img class="logo" src="imagens/logo.png" alt="Logo do site Omma" />
+                <p>© 2022 omma - Todos os direitos são de vocês</p>
+            </footer>
+
+    </body>
+</html>
